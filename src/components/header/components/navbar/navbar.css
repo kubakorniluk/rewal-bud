@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3.5vw;
+}
+.navbar__item {
+    padding: 2vw;
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+}
+/* .navbar__item--logo {
+    padding-left: 0;
+} */

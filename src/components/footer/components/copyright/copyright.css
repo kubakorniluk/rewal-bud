@@ -1,0 +1,8 @@
+.copyright {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-align: right;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+}
