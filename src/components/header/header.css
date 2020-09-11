@@ -1,14 +1,16 @@
 .header {
     position: relative;
-    background-image: url("../../assets/img/header_background.jpeg");
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: cover;
+    background-position: top;
     width: 100vw;
-    height: 75vh;
+    height: 70vh;
 }
 .header__overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(240, 240, 240, 0.9);
     width: 100vw;
-    height: 75vh;
+    height: 70vh;
 }

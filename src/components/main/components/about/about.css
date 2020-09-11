@@ -1,0 +1,52 @@
+.about {
+    position: relative;
+    text-align: center;
+    width: 50vw;
+    padding: 10vw 5vw;
+}
+.about__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+    color: rgb(197, 159, 61);
+}
+
+@media screen and (max-width: 576px) {
+    .about {
+        width: 100%;
+    }
+    .about__text {
+        font-size: 1.7rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        width: 80%;
+    }
+    .about__text {
+        font-size: 1.85rem;
+        line-height: 3.25rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about {
+        width: 70%;
+    }
+    .about__text {
+        font-size: 2rem;
+        line-height: 3.3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about {
+        width: 60%;
+    }
+    .about__text {
+        font-size: 2.15rem;
+        line-height: 3.4rem;
+    }
+}

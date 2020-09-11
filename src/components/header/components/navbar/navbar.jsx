@@ -9,9 +9,9 @@ export default function Navbar() {
             </section>
             <section>
                 <a href="#" className="navbar__item">O nas</a>
-                <a href="#" className="navbar__item">Portfolio</a>
+                <a href="#" className="navbar__item">Realizacje</a>
                 <a href="#" className="navbar__item">Oferta</a>
-                <a href="#" className="navbar__item">Kontakt</a>    
+                <a href="#" className="navbar__item navbar__item--contact">Kontakt</a>    
             </section>
         </nav>
     )

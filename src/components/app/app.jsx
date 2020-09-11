@@ -1,13 +1,15 @@
 import React from 'react';
-import Footer from '../footer/footer';
 import Header from '../header/header';
+import Main from '../main/main';
+import Footer from '../footer/footer';
 import './app.css';
 
 export default function App() {
     return (
         <React.Fragment>
             <Header />
-            <Footer />
+            <Main />
+            {/* <Footer /> */}
         </React.Fragment>
     );
 }
