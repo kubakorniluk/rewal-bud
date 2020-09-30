@@ -11,6 +11,8 @@ export default class Form extends React.Component {
     }
     render() {
         return (
+            <>
+            <h1 className="text">Napisz do nas!</h1>
             <form className="form">
                 <div className="form__fieldset">
                     <input 
@@ -36,12 +38,13 @@ export default class Form extends React.Component {
                         placeholder="Opisz swój projekt"
                     ></textarea>
                 </div>
-                {/* <input 
+                <input 
                     onClick={this.handleSubmit} 
                     className="form__submit" 
-                    type="submit"
-                /> */}
+                    type="submit" placeholder="Wyślij"
+                />
             </form>
+            </>
         )
     }
 }

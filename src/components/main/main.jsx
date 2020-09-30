@@ -1,16 +1,15 @@
 import React from 'react';
-import About from './components/about/about';
 import Features from './components/features/features';
+import Renovations from './components/renovations/renovations';
+import About from './components/about/about'
 import './main.css';
-import Statistics from './components/statistics/statistics';
 
 export default function Main() {
     return (
         <main className="main">
-            
-            <About />
             <Features />
-            <Statistics />
+            <About />
+            <Renovations />
         </main>
     )
 }

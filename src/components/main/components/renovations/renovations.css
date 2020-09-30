@@ -1,0 +1,42 @@
+.renovations {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5vw 7.5vw 10vw 7.5vw;
+    width: 100vw;
+}
+.renovations__title {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.renovations__gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.renovations__gallery--image img {
+    padding-top: 2vw;
+    width: 18vw;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+.renovations__gallery--image img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+    .renovations {
+        padding: 5vw 10vw;
+    }
+    .renovations__gallery {
+        flex-direction: column;
+    }
+    .renovations__gallery--image img {
+        width: 100%;
+        margin: 5vw 0vw;
+    }
+}

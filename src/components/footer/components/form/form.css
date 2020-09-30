@@ -28,3 +28,47 @@
 .form__input--textarea {
     width: 100%;
 }
+.form__submit {
+    color: white;
+    border: 1px solid transparent;
+    margin: 1vw;
+    padding: 0.65vw 1.5vw;
+    background-color: rgb(197, 159, 61);
+    font-size: 115%;
+}
+.text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+@media screen and (max-width: 1200px) {
+    .form__input {
+        width: 100%;
+        margin: 1vw 0vw;
+    }
+    .form__fieldset {
+        width: 100%;
+        flex-direction: column;
+    }
+    .text {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .about__text {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__text {
+        font-size: 1.85rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about__text {
+        font-size: 2rem;
+    }
+}

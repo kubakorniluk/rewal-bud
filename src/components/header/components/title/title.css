@@ -1,0 +1,28 @@
+.header__title {
+    font-size: 400%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+}
+.header__about {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 115%;
+}
+@media screen and (max-width: 576px) {
+    .header__title {
+        font-size: 240%;
+    }
+    .header__about {
+        height: 70vh;
+    }
+}

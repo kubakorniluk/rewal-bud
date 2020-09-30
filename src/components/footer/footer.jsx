@@ -5,9 +5,9 @@ import './footer.css';
 
 export default function Footer() {
     return (
-        <footer className="footer">
-            <Form />
-            {/* <Copyright /> */}
+        <footer className="footer" id="contact">
+                <Form />
+                <Copyright />
         </footer>
     )
 }
