@@ -4,6 +4,7 @@
     margin: 0;
     padding: 5vw 7.5vw 10vw 7.5vw;
     width: 100vw;
+    background-color: rgb(245, 245, 245);
 }
 .renovations__title {
     text-align: left;
@@ -27,16 +28,4 @@
 .renovations__gallery--image img:hover {
     opacity: 1;
     cursor: pointer;
-}
-@media screen and (max-width: 1200px) {
-    .renovations {
-        padding: 5vw 10vw;
-    }
-    .renovations__gallery {
-        flex-direction: column;
-    }
-    .renovations__gallery--image img {
-        width: 100%;
-        margin: 5vw 0vw;
-    }
 }

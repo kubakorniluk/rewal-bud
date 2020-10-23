@@ -3,17 +3,13 @@
     align-items: center;
     text-align: center;
     width: 50vw;
-    margin: 5vw;
+    padding: 5vw 0vw 15vw 0vw;
 }
 .about__text {
     font-family: 'Roboto', sans-serif;
-    font-size: 240%;
-    line-height: 3.5rem;
+    font-size: 230%;
+    line-height: 3.25rem;
     color: rgb(26, 30, 40);
+    margin: 0;
 }
 
-@media screen and (max-width: 576px) {
-    .about__text {
-        font-size: 150%;
-    }
-}
