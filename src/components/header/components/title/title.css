@@ -6,19 +6,17 @@
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .header__title {
     font-size: 345%;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0;
 }
 .header__subtitle {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 115%;
-    margin-bottom: 0%;
+    margin-bottom: 0;
 }
