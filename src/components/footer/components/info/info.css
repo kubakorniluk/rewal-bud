@@ -1,0 +1,28 @@
+.info {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    padding: 1vw 5vw;
+    font-style: normal;
+}
+.info__address {
+    margin-bottom: 5vw;
+}
+.info__contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info__title {
+    color: rgb(150, 150, 150);
+    font-weight: normal;
+    font-size: 110%;
+}
+.info__title:first-of-type {
+    margin-top: 0;
+}
+.info__text {
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+}

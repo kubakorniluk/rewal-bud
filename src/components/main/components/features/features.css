@@ -1,7 +1,7 @@
 .features {
     display: flex;
     flex-direction: row;
-    transform: translate(0%, -50%);
+    /* transform: translate(0%, -50%); */
     margin: 0;
     padding: 0;
 }
@@ -13,8 +13,7 @@
     margin: 2.5vw;
     padding: 2.5vw 5vw;
     color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
-    font-size: 115%;
+    font-size: 110%;
     text-align: center;
 }
 

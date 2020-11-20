@@ -3,10 +3,10 @@
     align-items: center;
     text-align: center;
     width: 50vw;
-    padding: 5vw 0vw 15vw 0vw;
+    padding: 12.5vw 0vw 15vw 0vw;
+
 }
 .about__text {
-    font-family: 'Roboto', sans-serif;
     font-size: 230%;
     line-height: 3.5rem;
     color: rgb(26, 30, 40);

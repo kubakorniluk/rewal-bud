@@ -1,74 +1,52 @@
 .form {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
     margin: 0;
     padding: 0;
     width: 100%;
     height: auto;
 }
-.form__input {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #f5f5f5;
-    font-family: 'Roboto', sans-serif;
-    font-size: 105%;
-    border: 0;
-    margin: 1em;
-    padding: 1em;
-    width: 50%;
-}
 .form__fieldset {
     display: flex;
     flex-direction: row; 
-    border: 0;
-    width: 50%;
     margin: 0;
     padding: 0;
+    border: none;
 }
-.form__input--textarea {
+.form__input {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    border: 0;
+    /* border-bottom: 1px solid rgb(150, 150, 150); */
+    margin: 1vw;
+    padding: 1em;
     width: 100%;
 }
+.form__input--textarea {
+    resize: none;
+}
 .form__submit {
-    color: white;
+    color: rgb(26, 30, 40);
     border: 1px solid transparent;
+    font-family: 'Raleway', sans-serif;
     margin: 1vw;
-    padding: 0.65vw 1.5vw;
-    background-color: rgb(197, 159, 61);
-    font-size: 115%;
+    padding: 1vw 2vw;
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+    cursor: pointer;
+    transition: 0.5s;
 }
-.text {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+.form__submit:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(26, 30, 40);
+}
+.form__title, .form__subtitle {
+    color: rgb(150, 150, 150);
     font-weight: normal;
+    margin: 0;
+    margin: 1vw;
+    font-size: 110%;
 }
-@media screen and (max-width: 1200px) {
-    .form__input {
-        width: 100%;
-        margin: 1vw 0vw;
-    }
-    .form__fieldset {
-        width: 100%;
-        flex-direction: column;
-    }
-    .text {
-        font-size: 1.5rem;
-    }
-}
-@media screen and (max-width: 576px) {
-    .about__text {
-        font-size: 1.7rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .about__text {
-        font-size: 1.85rem;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .about__text {
-        font-size: 2rem;
-    }
+.form__subtitle {
+    color:  rgb(255, 255, 255);
 }

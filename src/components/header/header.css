@@ -6,11 +6,11 @@
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 80vh;
+    height: 82.5vh;
 }
 .header__overlay {
     position: absolute;
     width: 100vw;
-    height: 80vh;
+    height: 82.5vh;
     background-color: rgba(26, 30, 40, 0.8);
 }

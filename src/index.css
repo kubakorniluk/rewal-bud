@@ -10,6 +10,11 @@ html {
 *:before, 
 *:after {
     box-sizing: inherit;
+    font-family: 'Raleway', sans-serif;
+}
+::selection {
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 159, 61);
 }
 @media only screen and (max-width: 576px) {
     .navbar__item--logo {
@@ -66,6 +71,9 @@ html {
     }
     .navbar__item:not(.navbar__item--logo):not(.navbar__item--contact) {
         display: none;
+    }
+    .footer__content {
+        flex-direction: column;
     }
     .navbar {
         margin: 7.5vw 6vw 0vw 6vw;

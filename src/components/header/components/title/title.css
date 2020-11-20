@@ -9,14 +9,12 @@
     align-items: center;
 }
 .header__title {
-    font-size: 345%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 375%;
     color: rgb(255, 255, 255);
     margin: 0;
 }
 .header__subtitle {
-    font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 115%;
+    font-size: 110%;
     margin-bottom: 0;
 }
